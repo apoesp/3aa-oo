@@ -1,14 +1,25 @@
 #pragma once
 #include <string>
+#include "Attack.h"
+#include <vector>
 
 class Polymon
 {
 public:
 	Polymon(std::string name, int speed, int hp);
 	void addAttack(std::string name, int points, int damage);
-	std::string getName();
+	std::string getName() const;
+	int getSpeed() const;
+	int getHp() const;
+	std::vector<Attack> getAttacks() const;
+
+
 private:
+
 	std::string _name;
-	int _speed;
-	int _hp;
+	int _speed = 0;
+	int _hp = 0;
+	std::vector <Attack> _attacks;
 };
+
+

@@ -11,10 +11,9 @@ void Menu::afficherMenu() {
     }
 
     int choix = 0;
-    while (choix == 0) {
-        std::cout << "Entrez le numéro de votre choix : ";
-        std::cin >> choix;
-    }
+
+    std::cout << "Entrez le numéro de votre choix : ";
+    std::cin >> choix;    
 
     std::cout << "Tu as choisi " << polymons[choix - 1].getName() << std::endl;
 }
