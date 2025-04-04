@@ -1,5 +1,6 @@
 #pragma once
 #include <string>
+
 class Polymon
 {
 public:
@@ -8,4 +9,6 @@ public:
 	std::string getName();
 private:
 	std::string _name;
+	int _speed;
+	int _hp;
 };
