@@ -12,6 +12,7 @@ public:
 	int getSpeed() const;
 	int getHp() const;
 	std::vector<Attack> getAttacks() const;
+	void setSpeed(int speed);
 
 
 private:

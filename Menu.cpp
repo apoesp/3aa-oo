@@ -17,4 +17,5 @@ void Menu::afficherMenu() {
     std::cin >> choix;    
 
     std::cout << "\nTu as choisi " << polymons[choix - 1].getName() << "\nTu joues contre " << polymonAdverse.getName() << std::endl;
+
 }

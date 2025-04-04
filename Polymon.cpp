@@ -26,3 +26,8 @@ std::vector<Attack> Polymon::getAttacks() const
 {
 	return _attacks;
 }
+
+void Polymon::setSpeed(int setSpeed)
+{
+	_speed = setSpeed;
+}
