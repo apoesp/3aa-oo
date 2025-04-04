@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+
+#Others
+"3aa-oo/x64/Debug/" 
+"x64/Debug/" 
+"3aa-oo.vcxproj"
+"3aa-oo.vcxproj.filters"
+"3aa-oo.vcxproj.user"
+
